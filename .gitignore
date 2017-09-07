@@ -1,4 +1,9 @@
+# project
 _site
 .sass-cache
-node_modules
-_drafts
+.vagrant
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
