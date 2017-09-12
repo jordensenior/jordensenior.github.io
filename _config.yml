@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-UK
-title: Jorden Senior
+title: Under construction.
 email: jorden.senior@aalto.fi
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
