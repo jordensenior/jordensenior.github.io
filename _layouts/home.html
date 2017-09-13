@@ -2,12 +2,22 @@
 layout: default
 ---
 
-
+<head>
+  <script type='text/javascript' src='assets/js/jquery.particleground.js'></script>
+  <script type='text/javascript' src='assets/js/demo.js'></script>
+</head>
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
-  <script type='text/javascript' src='assets/js/jquery.particleground.js'></script>
-  <script type='text/javascript' src='assets/js/demo.js'></script>
+
+  <div id="particles">
+    <div id="intro">
+      <h1>Particleground</h1>
+      <p>A JavaScript plugin for snazzy background particle systems</p>
+      <a href="https://github.com/jnicol/particleground/archive/master.zip" class="btn">Download</a>
+    </div>
+  </div>
+
 
   <div class="index inner">
     <div>{{ content }}</div>
