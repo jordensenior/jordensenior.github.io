@@ -4,4 +4,4 @@ layout: home
 ---
 
 
-Under construction. Yes.
+Under construction. 
