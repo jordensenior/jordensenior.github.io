@@ -6,6 +6,18 @@
     https://github.com/mmistakes/jekyll-basically-theme/blob/master/LICENSE.md
 -->
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+
+<head>
+	<script type="text/javascript" src="particles.js"></script>
+</head>
+<div id="particles">
+  <body id="particles-js">
+    <script type="text/javascript">
+      particlesJS("particles-js", 'assets/test.json');
+    </script>
+  </body>
+</div>
+
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
